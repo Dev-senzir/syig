@@ -24,7 +24,7 @@ class Data:
             InlineKeyboardButton("طريقة استخدام البوت ☆", callback_data="help"),
             InlineKeyboardButton("حول ⩩", callback_data="about"),
         ],
-        [InlineKeyboardButton("َժٍᥱُ᥎", url="https://t.me/IC_K_K")],
+        [InlineKeyboardButton("َժٍᥱُ᥎", url="https://t.me/IC_X_K")],
     ]
 
     START = """
