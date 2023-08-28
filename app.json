@@ -1,0 +1,56 @@
+{
+  "name": "مصنع بوتات استخراج التيرمكس الخاص بسورس ريفز مقدم من يوسف",
+  "description": "Generate Pyrogram And Telethon String Session Easley",
+  "logo": "https://graph.org/file/6e4359dc87a11152d5951.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Eco"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/Tepthonee/SessionBot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ايبي ايدي",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "توكن بوتك",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "رابط كروب الدعم",
+      "required": false,
+      "value": "https://t.me/zoUka"
+    }
+  }
+}
